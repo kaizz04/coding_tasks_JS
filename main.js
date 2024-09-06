@@ -89,5 +89,14 @@ function intersection(arr1,arr2){
     return arr1.filter(value => arr2.includes(value));
 }
 
-console.log(intersection(arr1,arr2));
+//console.log(intersection(arr1,arr2));
+
+function factorial(n1){
+    if(n1 ==0 || n1 ==1){
+        return 1;
+
+    }
+    return n1 * factorial(n1-1);
+}
+// console.log(factorial(5));
 
