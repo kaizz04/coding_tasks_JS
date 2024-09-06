@@ -6,13 +6,13 @@ function reverseString(str){
 }
 // console.log(reverseString(str));
 
-let array1 = [1, 1, 4, 1, 5, 9];
+let array1 = [3, 1, 4, 1, 5, 9];
 
 function findLargestNumber(array1){
   return Math.max(...array1);
 
 }
-console.log(findLargestNumber(array1));
+// console.log(findLargestNumber(array1));
 
 function findLargestNumber2(array1){
     let max = array1[0];
@@ -26,5 +26,13 @@ function findLargestNumber2(array1){
 
 }
 
-console.log(findLargestNumber2(array1));
+// console.log(findLargestNumber2(array1));
 
+let palindrome = "racecar";
+function checkPalindrome(palindrome){
+    let reverseStr = palindrome.split('').reverse().join('');
+    if(palindrome === reverseStr) return true;
+
+}
+
+console.log(checkPalindrome(palindrome));
