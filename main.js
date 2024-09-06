@@ -43,4 +43,12 @@ function countVowels(str){
     return matches ? matches.length:0;
 
 }
-console.log(countVowels(str2));
+// console.log(countVowels(str2));
+
+let array2 = [1, 2, 2, 3, 4, 4, 5];
+function removeDuplicates(array2){
+    let set1 = new Set(array2);
+    return [...set1];
+
+}
+console.log(removeDuplicates(array2));
