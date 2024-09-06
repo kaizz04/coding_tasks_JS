@@ -35,4 +35,12 @@ function checkPalindrome(palindrome){
 
 }
 
-console.log(checkPalindrome(palindrome));
+// console.log(checkPalindrome(palindrome));
+
+let str2 = "javascript";
+function countVowels(str){
+    let matches = str.match(/[aeiou]/gi);
+    return matches ? matches.length:0;
+
+}
+console.log(countVowels(str2));
