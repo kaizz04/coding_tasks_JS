@@ -72,4 +72,12 @@ function fizzBuzzChallenge(){
     }
 } 
 
-fizzBuzzChallenge();
+// fizzBuzzChallenge();
+
+
+function numberToBinary(number){
+    return number.toString(2);
+
+}
+let number=10;
+console.log(numberToBinary(number));
