@@ -1,0 +1,1 @@
+Understands and practice concepts in JS & Task project
